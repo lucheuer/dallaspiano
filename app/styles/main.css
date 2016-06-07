@@ -31,7 +31,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('wassily-kandinsky-werke-04-big.jpg');
+  background-image: url("https://raw.githubusercontent.com/lucheuer/dallaspiano/master/app/images/wassily-kandinsky-werke-04-big.jpg");
   background-size: cover;
   color: #ffffff;
   height: 350px;
@@ -42,12 +42,12 @@ header p {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: #fff;
+  color: #000000;
 }
 
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: #fff;
+  color: #000000;
 }
 
 section .row img {
