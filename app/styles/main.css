@@ -18,15 +18,37 @@ header h1 {
   margin: 0;
 }
 
+header h4 {
+  font-weight: 500;
+  margin: 0;
+
+}
+
 header nav {
   display: flex;
   justify-content: flex-end;
+}
+
+#nav_link {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  padding: 3px 5px 3px 5px;
+
+}
+
+#nav_link:hover {
+  background-color: #E8DFE0;
+  border-radius: 5px;
+  border: 0;
+  text-decoration: none;
 }
 
 header p {
   padding: 0 20px;
   margin: 0;
 }
+
 
 .jumbotron {
   display: flex;
@@ -53,11 +75,17 @@ header p {
 section .row img {
   margin: 0 0 30px;
   width: 100%;
+  border: 5px solid #676664;
 }
 
 .col-md-6 {
   margin: 0 0 30px;
 }
+
+#main_subhead {
+  font-weight: 500;
+}
+
 
 .btn.btn-primary {
   border-radius: 2px;
@@ -74,7 +102,7 @@ section .row img {
 
 .btn-secondary {
   background-color: #E8DFE0;
-  color: #ffffff;
+  color: #676664;
   margin: 0 0 30px;
 }
 
