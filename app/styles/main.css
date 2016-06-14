@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  color: red;
 }
 
 header {
@@ -44,11 +45,15 @@ header nav {
   text-decoration: none;
 }
 
+
 header p {
   padding: 0 20px;
   margin: 0;
 }
 
+.container {
+  margin:auto;
+}
 
 .jumbotron {
   display: flex;
@@ -58,13 +63,6 @@ header p {
   color: #ffffff;
   height: 350px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-
-.jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #000000;
 }
 
 .jumbotron h3 {
@@ -81,11 +79,6 @@ section .row img {
 .col-md-6 {
   margin: 0 0 30px;
 }
-
-#main_subhead {
-  font-weight: 500;
-}
-
 
 .btn.btn-primary {
   border-radius: 2px;
