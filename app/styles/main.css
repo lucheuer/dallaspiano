@@ -56,7 +56,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url("https://raw.githubusercontent.com/lucheuer/dallaspiano/master/app/images/wassily-kandinsky-werke-04-big.jpg");
+  background-image: url("https://raw.githubusercontent.com/lucheuer/dallaspiano/gh-pages/app/images/wassily-kandinsky-werke-04-big.jpg");
   background-size: cover;
   color: #ffffff;
   height: 350px;
